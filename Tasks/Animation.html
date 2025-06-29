@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+    <style>
+        body{
+            text-align: center;
+            background-image: url('Images/sky.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Task-3</h1>
+
+    <img src="Images/Wings_up.png" id="img" height="400px" width="400px">
+    <br><br>
+    <button onclick="setImg()">FLY</button>
+
+    <script>
+
+        function setImg() {
+            if (document.getElementById("img").src.endsWith("Wings_up.png")) {
+                document.getElementById("img").src = "Images/Wings_down.png";
+            }
+            else{
+                document.getElementById("img").src = "Images/Wings_up.png";
+            }
+        };
+    </script>
+
+</body>
+
+</html>
