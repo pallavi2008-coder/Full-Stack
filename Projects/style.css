@@ -1,0 +1,191 @@
+/* ==================== GENERAL BODY & BACKGROUND ==================== */
+
+body {
+    background-image: url('Assets/Images/bgm.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(133, 133, 223);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==================== HEADINGS ==================== */
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-shadow: 4px 5px 6px orange;
+    color: blue;
+}
+
+/* ==================== PARAGRAPHS ==================== */
+
+p {
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+    border: solid 2px;
+    margin: 30px;
+}
+
+/* First line and first letter stylings */
+p::first-line {
+    color: teal;
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: crimson;
+    font-family: 'Georgia', serif;
+}
+
+/* ==================== NAVIGATION BAR ==================== */
+
+nav {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: blueviolet;
+    height: 60px;
+    z-index: 999;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: yellow;
+    color: red;
+    border-radius: 20px;
+    border: dashed thin;
+    transition: 0.3s ease;
+}
+
+/* Hover and Active Effects */
+li a:hover {
+    background-color: coral;
+    color: blue;
+}
+
+li a:active {
+    background-color: darkmagenta;
+    color: hotpink;
+}
+
+/* ==================== PUBLISHED SECTION ==================== */
+
+#published {
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+}
+
+/* Book Image Styling */
+img {
+    padding: 10px;
+    margin: 15px;
+    border: solid 2px;
+    background-color: bisque;
+    opacity: 0.5;
+    transition: 0.4s ease-in-out;
+}
+
+img:hover {
+    background-color: cadetblue;
+    opacity: 1;
+}
+
+/* Fix spacing on hover images inside anchors */
+a:hover img {
+    outline: none;
+}
+
+/* ==================== ABOUT US SECTION ==================== */
+
+#about_us {
+    margin-top: 50px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Wattpad Highlight Text */
+#wattpad {
+    color: azure;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* YouTube Embed Spacing */
+.yt {
+    padding: 10px;
+    margin: 10px;
+}
+
+/* ==================== CONTACT SECTION ==================== */
+
+#contact {
+    padding: 50px 20px 40px 20px;
+    text-align: center;
+}
+
+/* Contact Form Styling */
+form {
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+/* Form Labels */
+label {
+    color: beige;
+    border: solid 1px white;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Google Map */
+#map {
+    text-align: center;
+    padding: 20px;
+}
+
+/* ==================== FOOTER ==================== */
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: green;
+    padding: 10px;
+}
+
+/* ==================== CUSTOM CLASSES ==================== */
+
+.section {
+    padding: 60px 30px 80px;
+    box-sizing: border-box;
+}
+
+/* Home ID Styling (optional) */
+#home {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
